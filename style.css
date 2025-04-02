@@ -32,7 +32,7 @@
     --border-radius-m: 30px;
     --border-radius-circle: 50%;
 
-    --site-max-width: 1300px;
+    --site-max-width: 1600px;
 }
 
 /* styling for whole site */
@@ -278,7 +278,7 @@ header .navbar {
     }
 
     header .navbar {
-        padding: 5px 15px;
+        padding: 5px 30px;
     }
 
     .navbar .nav-menu {

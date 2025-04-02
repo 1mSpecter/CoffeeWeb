@@ -241,7 +241,7 @@ header .navbar {
 }    
 
 
-@media screen and (max-width: 900px){
+@media (max-width: 900px){
 
     :root {
         --font-size-m: 1rem;

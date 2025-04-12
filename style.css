@@ -34,6 +34,10 @@
  
      --site-max-width: 1600px;
  }
+
+ html {
+    scroll-behavior: smooth;
+ }
  
  /* styling for whole site */
  ul{
@@ -556,10 +560,12 @@
      }
  
      .about-section .section-content {
-         flex-direction: column;
+         width: 100%;
+         flex-direction: column-reverse;
          gap: 70px;
+         padding: 0 50px;
      }
- 
+
      .about-section .about-image-wrapper .about-image {
          width: 100%;
          height: 100%;
